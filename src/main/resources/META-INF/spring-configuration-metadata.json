@@ -1,0 +1,49 @@
+{
+  "groups": [
+    {
+      "sourceType": "me.zhengjin.common.verification.autoconfig.ReCaptchaProperties",
+      "name": "customize.common.verification.recaptcha",
+      "type": "me.zhengjin.common.verification.autoconfig.ReCaptchaProperties"
+    },
+    {
+      "name": "customize.common.verification.redis"
+    },
+    {
+      "name": "customize.common.verification.session"
+    }
+  ],
+  "properties": [
+    {
+      "name": "customize.common.verification.recaptcha.enable",
+      "type": "java.lang.Boolean",
+      "description": "enable GoogleReCaptcha",
+      "sourceType": "me.zhengjin.common.verification.autoconfig.ReCaptchaProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "customize.common.verification.recaptcha.secret",
+      "type": "java.lang.String",
+      "description": "google reCaptcha secret",
+      "sourceType": "me.zhengjin.common.verification.autoconfig.ReCaptchaProperties"
+    },
+    {
+      "name": "customize.common.verification.recaptcha.host",
+      "type": "me.zhengjin.common.verification.autoconfig.GoogleReCaptchaHostType",
+      "description": "google reCaptcha host",
+      "sourceType": "me.zhengjin.common.verification.autoconfig.ReCaptchaProperties",
+      "defaultValue": "www_recaptcha_net"
+    },
+    {
+      "name": "customize.common.verification.redis.enable",
+      "type": "java.lang.Boolean",
+      "description": "enable redis verification",
+      "defaultValue": false
+    },
+    {
+      "name": "customize.common.verification.session.enable",
+      "type": "java.lang.Boolean",
+      "description": "enable session verification",
+      "defaultValue": true
+    }
+  ]
+}

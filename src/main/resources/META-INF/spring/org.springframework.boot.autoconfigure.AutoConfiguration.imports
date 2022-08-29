@@ -1,0 +1,3 @@
+me.zhengjin.common.verification.autoconfig.VerificationHelperWithSessionAutoConfiguration
+me.zhengjin.common.verification.autoconfig.VerificationHelperWithRedisAutoConfiguration
+me.zhengjin.common.verification.autoconfig.VerificationHelperWithGoogleReCaptchaAutoConfiguration
